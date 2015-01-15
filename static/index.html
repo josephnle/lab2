@@ -2,81 +2,92 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- this is a comment in HTML -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->        
+  <meta charset="utf-8">
+  <title>HCI Project Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
 <body>
-	<div>
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div>
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-		</div>
+<header>
+  <div class="title">
+    <h1>Joseph Le | Project Portfolio</h1>
+    <ul>
+      <li>
+        <i class="fa fa-map-marker"></i> La Jolla, CA
+      </li>
+      <li>
+        <i class="fa fa-laptop"></i> <a href="http://josephle.me" target="_blank">josephle.me</a>
+      </li>
+    </ul>
+    <p class="blurb">I'm a 2nd year computer science student at the University of California, San Diego. I'm really
+      passionate about startups and creating awesome products!</p>
+
+  </div>
+</header>
+
+<div class="content">
+  <!-- p means paragraph -->
+
+  <div id="project-1" class="project">
+    <div class="header" style="background: url(assets/img/projects/studenthero/home.png); background-position: top;
+    background-size: cover;">
+      <div class="title">
+        <h3>StudentHero</h3>
+      </div>
+    </div>
 
 
-		<h4>Projects</h4>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
-			</a>
-		</div>
-		<div id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
-			</a>
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
-			</a>
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
-			</a>
-		</div>
-	</div>
+    <div class="body">
+      <p>StudentHero is my newest project with my co-founder, Tam Pham. When completed, StudentHero will serve as a
+        platform
+        to connect high school students to summer internships and other summer programs. The idea for StudentHero was
+        forged
+        out of a realization that high school was already frustrating as it is without having the expectation of doing
+        something productive over the summer.</p>
+    </div>
+
+  </div>
+
+  <div id="project-2" class="project">
+    <div class="header" style="background: url(assets/img/projects/ucsdcirclek/home.png); background-position: top;
+    background-size: cover;">
+      <div class="title">
+        <h3>UCSD Circle K</h3>
+      </div>
+    </div>
+
+    <div class="body">
+      <p>With over 150 registered members in the past year, UCSD Circle K is one of the largest student service
+        organizations on the UCSD campus. Members rely greatly on the website, particularly the calendar, to find out
+        what
+        events are available. The organization also relies on members registering their event attendance to ensure that
+        the
+        logistics are in place for all members. This year, a whole new platform(both frontend and backend) was
+        introduced,
+        replacing a system that was in use for more than 4 years.</p>
+    </div>
+  </div>
+
+  <div id="project-3" class="project">
+    <div class="header" style="background: url(assets/img/projects/sdhacks/home.png); background-position: top;
+    background-size: cover;">
+      <div class="title">
+        <h3>SD Hacks</h3>
+      </div>
+    </div>
+
+    <div class="body">
+      <p>SD Hacks aims to redefine Silicon Beach and establish San Diego as a major player in technological innovation.
+        With
+        a projected attendance of more than 1000 hackers, SD Hacks requires an elegant yet highly functional and
+        reliable
+        website to handle registrations and to deliver information to attendees.</p>
+    </div>
+
+  </div>
+</div>
 </body>
 </html>
